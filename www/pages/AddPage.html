@@ -1,0 +1,27 @@
+<script>
+    $.getScript(path + "js/AddPage.js");
+</script>
+  
+<header class="bar bar-nav">
+    <a class="icon icon-left-nav pull-left" onclick="currentPage.back();"></a>
+    <h1 class="title">AddPage</h1>
+</header>
+
+<div class="content">
+    <div class="card">
+    <ul class="table-view">
+        <li class="table-view-cell table-view-divider">Name:</li>
+  
+        <li class="table-view-cell"><input id="name" name="name" type="text"></li>
+  
+        <li class="table-view-cell table-view-divider">Description:</li>
+  
+        <li class="table-view-cell"><input id="description" name="description" type="text"></li>
+  
+        <li class="table-view-cell"></li>
+    </ul>
+   </div>
+    <div class="card" style="margin-bottom:40px;">
+        <button class="btn btn-positive btn-block" onclick="currentPage.add();">ADD TASK</button>
+    </div>
+</div>
