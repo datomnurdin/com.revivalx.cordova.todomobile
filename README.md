@@ -9,6 +9,10 @@ Q: How to  import the android project into eclipse, which folders?
 
 A: Inside platform folder, platform > android
 
+Q: Can you show me the basic how to integrate to server database?
+
+A: You can check here, http://blog.revivalx.com/2014/07/15/simple-hybrid-mobile-app-using-cordova-and-ratchet-2-complete .
+
 ##FAQ/CONTACT/TROUBLESHOOT
 Mohammad Nurdin bin Norazan
 
